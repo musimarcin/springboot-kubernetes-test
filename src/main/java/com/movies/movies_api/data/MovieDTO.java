@@ -1,0 +1,34 @@
+package com.movies.movies_api.data;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.movies.movies_api.data.entity.Movie;
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.data.domain.Page;
+
+import java.util.List;
+
+@Setter
+@Getter
+public class MovieDTO {
+    private List<Movie> movieList;
+    private int totalElements;
+    private int totalPages;
+    private int currentPage;
+    @JsonProperty("isFirst")
+    private boolean isFirst;
+    @JsonProperty("isLast")
+    private boolean isLast;
+    private boolean hasNext;
+    private boolean hasPrev;
+
+    public MovieDTO(Page<Movie> moviePage) {
+        this.setMovieList(moviePage.getContent());
+        this.setTotalElements(moviePage.getNumberOfElements());
+        this.setTotalPages(moviePage.getTotalPages());
+        this.setCurrentPage(moviePage.getNumber());
+        this.setFirst(moviePage.isFirst());
+        this.setLast(moviePage.isLast());
+        this.setHasNext(moviePage.hasNext());
+        this.setHasPrev(moviePage.hasPrevious());
+    }
+}
