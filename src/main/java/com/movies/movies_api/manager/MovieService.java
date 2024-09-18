@@ -5,12 +5,15 @@ import com.movies.movies_api.data.MovieDTO;
 import com.movies.movies_api.data.entity.Movie;
 import com.movies.movies_api.data.MovieRepo;
 import lombok.RequiredArgsConstructor;
+import org.springframework.boot.context.event.ApplicationStartedEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.Instant;
 import java.util.List;
 
 @Service
@@ -21,18 +24,16 @@ public class MovieService {
     private final MovieRepo movieRepo;
 
     @Transactional(readOnly = true)
-    public MovieDTO getMovies(Integer year) {
-        Pageable pageable = PageRequest.of(year, 10, Sort.Direction.ASC, "year");
+    public MovieDTO getMovies(Integer page) {
+        int pageNo = page > 1 ? 0 : page - 1;
+        Pageable pageable = PageRequest.of(pageNo, 20, Sort.Direction.ASC, "releaseYear");
         return new MovieDTO(movieRepo.findAll(pageable));
     }
 
-    public Movie save(Movie movie) {
-        return movieRepo.save(movie);
-    }
-
+    @EventListener(ApplicationStartedEvent.class)
     public void filltest() {
-        //save(new Movie("Movie Test", 1999));
-        //save(new Movie("Movie Test2", 2001));
-        //save(new Movie("Movie Test3", 2222));
+        for (int i = 0; i <= 30; i++) {
+            movieRepo.save(new Movie(null, "Movie Test " + i, 1988 + i, Instant.now()));
+        }
     }
 }
