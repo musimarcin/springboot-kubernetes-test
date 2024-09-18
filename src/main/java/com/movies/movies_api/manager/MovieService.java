@@ -30,7 +30,7 @@ public class MovieService {
         return new MovieDTO(movieRepo.findAll(pageable));
     }
 
-    @EventListener(ApplicationStartedEvent.class)
+    //@EventListener(ApplicationStartedEvent.class)
     public void filltest() {
         for (int i = 0; i <= 30; i++) {
             movieRepo.save(new Movie(null, "Movie Test " + i, 1988 + i, Instant.now()));

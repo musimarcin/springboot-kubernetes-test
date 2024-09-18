@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="569160fe-8e00-4880-a62f-aabb13aa9d06" name="Changes" comment="added entity, manager, service and dto">
+    <list default="true" id="569160fe-8e00-4880-a62f-aabb13aa9d06" name="Changes" comment="fixed issue with naming colliding with h2 database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/api/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/api/MovieManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/entity/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/manager/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/manager/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/api/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movies_api/api/MovieManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/domain/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/domain/MovieRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/domain/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.MoviesApiApplication.executor": "Run",
+    "Application.MoviesApiApplication.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -57,6 +53,11 @@
     "onboarding.tips.debug.path": "C:/Users/musie/IdeaProjects/movies-api/src/main/java/org/movies/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\musie\IdeaProjects\movies-api\src\main\resources\db\migration\h2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MoviesApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movies.movies_api.MoviesApiApplication" />
@@ -102,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726671162754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed issue with naming colliding with h2 database">
+      <option name="closed" value="true" />
+      <created>1726674850197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726674850197</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asdf" />
     <MESSAGE value="added entity, manager, service and dto" />
-    <option name="LAST_COMMIT_MESSAGE" value="added entity, manager, service and dto" />
+    <MESSAGE value="fixed issue with naming colliding with h2 database" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issue with naming colliding with h2 database" />
   </component>
 </project>
