@@ -1,4 +1,4 @@
-INSERT INTO movies (title, releaseYear, addedWhen) VALUES
+INSERT INTO movies (title, release_year, added_when) VALUES
 ('Movie 123', 1995, current_timestamp),
 ('Movie 456', 2003, current_timestamp),
 ('Movie 789', 2010, current_timestamp),

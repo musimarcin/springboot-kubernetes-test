@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="569160fe-8e00-4880-a62f-aabb13aa9d06" name="Changes" comment="fixed issue with naming colliding with h2 database">
+    <list default="true" id="569160fe-8e00-4880-a62f-aabb13aa9d06" name="Changes" comment="added migration to test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/api/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/api/MovieManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MoviesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MovieRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MovieRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/manager/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/manager/MovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V1__create_movie_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V1__create_movie_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V2__insert_test_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V2__insert_test_data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/api/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movies_api/api/MovieManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/manager/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movies_api/manager/MovieService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,21 +52,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.MoviesApiApplication.executor": "Debug",
+    "Application.MoviesApiApplication.executor": "Run",
+    "JUnit.MovieManagerTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/musie/IdeaProjects/movies-api",
-    "onboarding.tips.debug.path": "C:/Users/musie/IdeaProjects/movies-api/src/main/java/org/movies/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/musie/IdeaProjects/movies-api/src/main/java/org/movies/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\musie\IdeaProjects\movies-api\src\main\resources\db\migration\h2" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.movies.movies_api.api" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MovieManagerTest">
     <configuration name="MoviesApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movies.movies_api.MoviesApiApplication" />
       <module name="movies-api" />
@@ -72,8 +90,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movies-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movies.movies_api.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.movies.movies_api.api" />
+      <option name="MAIN_CLASS_NAME" value="com.movies.movies_api.api.MovieManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieManagerTest" />
         <item itemvalue="Application.MoviesApiApplication" />
       </list>
     </recent_temporary>
@@ -111,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726674850197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added migration to test">
+      <option name="closed" value="true" />
+      <created>1726679559417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726679559417</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added migration to test">
+      <option name="closed" value="true" />
+      <created>1726679569008</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726679569008</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +191,7 @@
     <MESSAGE value="asdf" />
     <MESSAGE value="added entity, manager, service and dto" />
     <MESSAGE value="fixed issue with naming colliding with h2 database" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue with naming colliding with h2 database" />
+    <MESSAGE value="added migration to test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added migration to test" />
   </component>
 </project>

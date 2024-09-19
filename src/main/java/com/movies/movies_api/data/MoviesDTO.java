@@ -9,8 +9,8 @@ import java.util.List;
 
 @Setter
 @Getter
-public class MovieDTO {
-    private List<Movie> movieList;
+public class MoviesDTO {
+    private List<MovieDTO> movieList;
     private int totalElements;
     private int totalPages;
     private int currentPage;
@@ -21,7 +21,7 @@ public class MovieDTO {
     private boolean hasNext;
     private boolean hasPrev;
 
-    public MovieDTO(Page<Movie> moviePage) {
+    public MoviesDTO(Page<MovieDTO> moviePage) {
         this.setMovieList(moviePage.getContent());
         this.setTotalElements(moviePage.getNumberOfElements());
         this.setTotalPages(moviePage.getTotalPages());
