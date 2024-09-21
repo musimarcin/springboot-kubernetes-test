@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="569160fe-8e00-4880-a62f-aabb13aa9d06" name="Changes" comment="added migration to test">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/api/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/api/MovieManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MoviesDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MovieRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/data/MovieRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/manager/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movies/movies_api/manager/MovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V1__create_movie_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V1__create_movie_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V2__insert_test_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/h2/V2__insert_test_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/movies/movies_api/api/MovieManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/movies/movies_api/api/MovieManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/api/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movies_api/api/MovieManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/movies/movies_api/manager/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movies/movies_api/manager/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/movies/movies_api/api/MovieManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/movies/movies_api/api/MovieManagerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -55,14 +54,20 @@
     "Application.MoviesApiApplication.executor": "Run",
     "JUnit.MovieManagerTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/musie/IdeaProjects/movies-api",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/musie/IdeaProjects/movies-api/src/main/java/org/movies/Main.java",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "spring.configuration.checksum": "6e20f3fad7f2c7f1cfdb488566213ce3"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,6 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726587188454</updated>
+      <workItem from="1726926469864" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="asdf">
       <option name="closed" value="true" />
@@ -163,6 +169,9 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
