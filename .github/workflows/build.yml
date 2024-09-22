@@ -31,6 +31,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
+      - name: Build with Maven
+        run : mvn clean install
       - name: Build Docker Image
         run: mvn clean package com.google.cloud.tools:jib-maven-plugin:3.3.0:build
       - name: Publish Docker Image
