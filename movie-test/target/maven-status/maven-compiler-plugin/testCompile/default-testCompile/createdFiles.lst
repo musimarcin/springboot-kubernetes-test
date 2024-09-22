@@ -1,0 +1,4 @@
+com/movies/movies_api/TestcontainersConfiguration.class
+com/movies/movies_api/MoviesApiApplicationTests.class
+com/movies/movies_api/TestMoviesApiApplication.class
+com/movies/movies_api/api/MovieManagerTest.class

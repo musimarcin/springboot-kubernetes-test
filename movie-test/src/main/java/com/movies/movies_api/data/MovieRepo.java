@@ -12,4 +12,19 @@ public interface MovieRepo extends JpaRepository<Movie, Long> {
     @Query("select new com.movies.movies_api.data.MovieDTO(m.id, m.title, m.releaseYear, m.addedWhen) from Movie m")
     Page<MovieDTO> findMovies(Pageable pageable);
 
+    /* manually find by query
+    @Query("""
+    select new com.movies.movies_api.data.MovieDTO(m.id, m.title, m.releaseYear, m.addedWhen) from Movie m
+    where lower(m.title) like lower(concat('%', :query, '%'))
+    """)
+    Page<MovieDTO> searchMovies(String query, Pageable pageable);
+    */
+
+    //springboot method for finding by attribute Title in MovieDTO
+    Page<MovieDTO> findByTitleContainingIgnoreCase(String query, Pageable pageable);
+
+    //with interface based projection
+    //Page<MovieVM> findByTitleContainingIgnoreCase(String query, Pageable pageable);
+
+
 }

@@ -16,8 +16,11 @@ public class MovieManager {
     private final MovieService movieService;
 
     @GetMapping
-    public MoviesDTO getMovies(@RequestParam(name = "page", defaultValue = "1") Integer page) {
-        return movieService.getMovies(page);
+    public MoviesDTO getMovies(@RequestParam(name = "page", defaultValue = "1") Integer page,
+                               @RequestParam(name = "query", defaultValue = "") String query) {
+        if (query == null || query.length() == 0)
+            return movieService.getMovies(page);
+        else return movieService.searchMovies(query, page);
     }
 
 
