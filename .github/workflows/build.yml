@@ -41,7 +41,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Docker Build and Push Image
-        run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:build -Dimage=${{ secrets.DOCKER_USERNAME }}/movie-app
+        run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:build -Dimage=${{ secrets.DOCKER_USERNAME }}/movie-api
 
 
         #secrets set in github repo settings (security actions) #skip tests because they are already running
