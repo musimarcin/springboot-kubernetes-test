@@ -41,10 +41,7 @@ jobs:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: mvn clean package jib:build -DskipTests
         #run: mvn clean package com.google.cloud.tools:jib-maven-plugin:3.3.0:build
-      - name: Publish Docker Image
-        run : |
-          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push ${{ secrets.DOCKER_USERNAME }}/movie-api:latest
+
         #secrets set in github repo settings (security actions) #skip tests because they are already running#
 
 
