@@ -32,7 +32,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build Docker Image
-        run: mvn clean package jib:build
+        run: "mvn clean package jib:build"
       - name: Publish Docker Image
         run : |
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
