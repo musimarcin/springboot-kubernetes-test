@@ -33,11 +33,12 @@ jobs:
       - name: Build with Maven
         run : mvn verify
 
-      - name: Publish Docker Image
-        run: |
-          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          mvn spring-boot:build-image -Dspring-boot.build-image.imageName=${{ secrets.DOCKER_USERNAME }}/movie-api
-          docker push ${{ secrets.DOCKER_USERNAME }}/movie-api
+      - name: Docker Login
+        run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+      - name: Docker Build Image
+        run: mvn spring-boot:build-image -Dspring-boot.build-image.imageName=${{ secrets.DOCKER_USERNAME }}/movie-api
+      - name: Docker Push Image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/movie-api
           
 
         #mvn clean package com.google.cloud.tools:jib-maven-plugin:3.3.0:build

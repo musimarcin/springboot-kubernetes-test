@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="trigger github actions" />
+    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="trigger github actions">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +101,7 @@
       <updated>1726994282986</updated>
       <workItem from="1726994284795" duration="217000" />
       <workItem from="1726994676833" duration="1493000" />
-      <workItem from="1726996898174" duration="11794000" />
+      <workItem from="1726996898174" duration="12188000" />
     </task>
     <task id="LOCAL-00001" summary="added git workflow">
       <created>1727001994703</created>
@@ -367,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727012177915</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="trigger github actions">
+      <created>1727012346774</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1727012346774</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
