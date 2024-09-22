@@ -34,7 +34,7 @@ jobs:
       - name: Build with Maven
         run: mvn verify
 
-      - if: ${{ github.ref == 'refs/head/main' }}
+      - if: ${{ github.ref == 'refs/heads/main' }}
         name: Build and Publish Docker Image
         run: |
           mvn clean package jib:dockerBuild -DskipTests
