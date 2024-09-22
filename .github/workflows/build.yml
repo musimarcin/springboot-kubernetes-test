@@ -32,14 +32,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: ./mvnw verify
+        run: mvn clean install
 
-      - if: ${{ github.ref == 'refs/head/main' }}
-        name: Build and Publish Docker Image
-        run: |
-          ./mvnw clean package jib:dockerBuild -DskipTests #skip tests because they are already running
-        docker login -u ${{ secrets.DOCKER_USERNAME }} #secrets set in github repo settings (security actions)
-        docker push ${{ secrets.DOCKER_USERNAME }}/movie-api
 
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
       #- name: Update dependency graph
