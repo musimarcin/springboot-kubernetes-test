@@ -44,7 +44,7 @@ jobs:
         run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:dockerBuild
 
       - name: Docker Push Image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/movie-api:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/movie-api
           
 
         #mvn clean package com.google.cloud.tools:jib-maven-plugin:3.3.0:build
