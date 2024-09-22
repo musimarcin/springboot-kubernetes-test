@@ -102,7 +102,7 @@
       <updated>1726994282986</updated>
       <workItem from="1726994284795" duration="217000" />
       <workItem from="1726994676833" duration="1493000" />
-      <workItem from="1726996898174" duration="8594000" />
+      <workItem from="1726996898174" duration="9444000" />
     </task>
     <task id="LOCAL-00001" summary="added git workflow">
       <created>1727001994703</created>
@@ -251,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727007980259</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="trigger github actions">
+      <created>1727008076911</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727008076911</updated>
+    </task>
+    <task id="LOCAL-00023" summary="trigger github actions">
+      <created>1727009781421</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727009781421</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
