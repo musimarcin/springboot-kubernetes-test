@@ -104,21 +104,7 @@
       <workItem from="1726994284795" duration="217000" />
       <workItem from="1726994676833" duration="1493000" />
       <workItem from="1726996898174" duration="15705000" />
-      <workItem from="1727025767880" duration="5210000" />
-    </task>
-    <task id="LOCAL-00001" summary="added git workflow">
-      <created>1727001994703</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1727001994703</updated>
-    </task>
-    <task id="LOCAL-00002" summary="modified github actions">
-      <created>1727002553002</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1727002553002</updated>
+      <workItem from="1727025767880" duration="5484000" />
     </task>
     <task id="LOCAL-00003" summary="modified github actions">
       <created>1727002832670</created>
@@ -449,7 +435,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727031711597</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="trigger github actions">
+      <created>1727031917427</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1727031917432</updated>
+    </task>
+    <task id="LOCAL-00051" summary="trigger github actions">
+      <created>1727031923711</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1727031923711</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

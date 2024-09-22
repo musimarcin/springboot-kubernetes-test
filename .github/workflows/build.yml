@@ -44,7 +44,7 @@ jobs:
         run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:dockerBuild
 
       - name: Docker Push Image
-        run: docker push musimar/movie-api
+        run: docker push musimar/movie-api:latest
         #secrets set in github repo settings (security actions) #skip tests because they are already running
 
 
