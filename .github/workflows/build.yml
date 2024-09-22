@@ -43,9 +43,9 @@ jobs:
       - name: Docker Build and Push Image
         run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:build -Dimage=${{ secrets.DOCKER_USERNAME }}/movie-api
 
-
         #secrets set in github repo settings (security actions)
-
+        #jib plugin automatically pushes image
+        #set configuration in jib plugin in pom.xml <to><image>docker.io/username/docker-name
 
 
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
