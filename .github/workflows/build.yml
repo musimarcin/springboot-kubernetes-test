@@ -45,7 +45,7 @@ jobs:
 
       - name: Docker Push Image
         run: docker push docker.io/${{ secrets.DOCKER_USERNAME }}/movie-api
-        #secrets set in github repo settings (security actions) #skip tests because they are already runnind
+        #secrets set in github repo settings (security actions) #skip tests because they are already running
 
 
 
