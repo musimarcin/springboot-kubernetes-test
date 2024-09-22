@@ -34,7 +34,7 @@ jobs:
         run : mvn verify
 
       - name: Publish Docker Image
-        run : |
+        run: |
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           mvn spring-boot:build-image -Dspring-boot.build-image.imageName=${{ secrets.DOCKER_USERNAME }}/movie-api
           docker push ${{ secrets.DOCKER_USERNAME }}/movie-api

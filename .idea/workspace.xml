@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="trigger github actions">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="trigger github actions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +99,7 @@
       <updated>1726994282986</updated>
       <workItem from="1726994284795" duration="217000" />
       <workItem from="1726994676833" duration="1493000" />
-      <workItem from="1726996898174" duration="11438000" />
+      <workItem from="1726996898174" duration="11794000" />
     </task>
     <task id="LOCAL-00001" summary="added git workflow">
       <created>1727001994703</created>
@@ -355,7 +353,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727011713603</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="trigger github actions">
+      <created>1727011981003</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1727011981003</updated>
+    </task>
+    <task id="LOCAL-00038" summary="trigger github actions">
+      <created>1727012177915</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1727012177915</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
