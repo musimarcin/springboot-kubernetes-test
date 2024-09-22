@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="569160fe-8e00-4880-a62f-aabb13aa9d06" name="Changes" comment="working test containers (fixed issue - too few resources for virtual machine)">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/movies/movies_api/api/MovieManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/movies/movies_api/api/MovieManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/movies/movies_api/api/MovieManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/movies/movies_api/api/MovieManagerTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2mCiv7tHWEu4vAKH24QgD9DHBEH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MoviesApiApplication.executor": "Run",
+    "JUnit.MovieManagerTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/musimarc/IdeaProjects/springboot-kubernetes-test",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/musie/IdeaProjects/movies-api/src/main/java/org/movies/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "spring.configuration.checksum": "6e20f3fad7f2c7f1cfdb488566213ce3"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\musie\IdeaProjects\movies-api\src\main\resources\db\migration\h2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.movies.movies_api.api" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn spring-boot:build-image" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MoviesApiApplication">
+    <configuration name="MoviesApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movies.movies_api.MoviesApiApplication" />
+      <module name="movies-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movies.movies_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movie-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movies.movies_api.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.movies.movies_api.api" />
+      <option name="MAIN_CLASS_NAME" value="com.movies.movies_api.api.MovieManagerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoviesApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.movies.movies_api.MoviesApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MovieManagerTest" />
+        <item itemvalue="Application.MoviesApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.23452769" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="569160fe-8e00-4880-a62f-aabb13aa9d06" name="Changes" comment="" />
+      <created>1726587188454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726587188454</updated>
+      <workItem from="1726926469864" duration="3412000" />
+      <workItem from="1726948291912" duration="398000" />
+      <workItem from="1726948821644" duration="552000" />
+      <workItem from="1726949623255" duration="247000" />
+      <workItem from="1726950126299" duration="366000" />
+      <workItem from="1726950830249" duration="3552000" />
+      <workItem from="1726994509460" duration="163000" />
+    </task>
+    <task id="LOCAL-00001" summary="asdf">
+      <option name="closed" value="true" />
+      <created>1726587420878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726587420879</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added entity, manager, service and dto">
+      <option name="closed" value="true" />
+      <created>1726671162754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726671162754</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed issue with naming colliding with h2 database">
+      <option name="closed" value="true" />
+      <created>1726674850197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726674850197</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added migration to test">
+      <option name="closed" value="true" />
+      <created>1726679559417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726679559417</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added migration to test">
+      <option name="closed" value="true" />
+      <created>1726679569008</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726679569008</updated>
+    </task>
+    <task id="LOCAL-00006" summary="working test containers (fixed issue - too few resources for virtual machine)">
+      <created>1726926992039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726926992039</updated>
+    </task>
+    <task id="LOCAL-00007" summary="working test containers (fixed issue - too few resources for virtual machine)">
+      <created>1726927008469</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726927008469</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asdf" />
+    <MESSAGE value="added entity, manager, service and dto" />
+    <MESSAGE value="fixed issue with naming colliding with h2 database" />
+    <MESSAGE value="added migration to test" />
+    <MESSAGE value="working test containers (fixed issue - too few resources for virtual machine)" />
+    <option name="LAST_COMMIT_MESSAGE" value="working test containers (fixed issue - too few resources for virtual machine)" />
+  </component>
+</project>
