@@ -45,7 +45,7 @@ jobs:
 
       - name: Docker Push Image
         run: docker push musimar/movie-api:latest
-        #secrets set in github repo settings (security actions) #skip tests because they are already running
+        #secrets set in github repo settings (security actions) #skip tests because they are already running3
 
 
 
