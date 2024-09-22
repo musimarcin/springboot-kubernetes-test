@@ -41,13 +41,10 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Docker Build and PushImage
-        uses: docker/build-push-action@v6
-        with:
-          push: true
-          tags: musimarc/movie-app:latest
-          
+        run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:dockerBuild
 
-        #run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:dockerBuild
+      - name: Docker Push Image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/movie-api
         #secrets set in github repo settings (security actions) #skip tests because they are already running#
 
 
