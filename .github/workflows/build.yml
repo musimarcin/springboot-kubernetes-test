@@ -32,7 +32,7 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn verify
 
       - if: ${{ github.ref == 'refs/head/main' }}
         name: Build and Publish Docker Image
