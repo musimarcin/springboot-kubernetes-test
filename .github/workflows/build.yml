@@ -32,12 +32,13 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn verify
+        run: mvn clean install
 
-      - if: ${{ github.ref == 'refs/heads/main' }}
-        name: Build and Publish Docker Image
-        run: |
-          mvn clean package jib:dockerBuild -DskipTests
+
+      - name: Build Docker Image
+        run: mvn clean package jib:dockerBuild -DskipTests
+
+      - name: Publish Docker Image
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           docker push ${{ secrets.DOCKER_USERNAME }}/movie-api
         #secrets set in github repo settings (security actions) #skip tests because they are already running
