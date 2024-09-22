@@ -41,7 +41,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Docker Build Image
-        run: mvn compile jib:dockerBuild
+        run: mvn compile com.google.cloud.tools:jib-maven-plugin:3.4.3:dockerBuild
 
       - name: Docker Push Image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/movie-api:latest
