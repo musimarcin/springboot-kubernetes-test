@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Build
 
 # "**" for selecting all branches
 on:
@@ -17,12 +17,11 @@ on:
 
 jobs:
   build:
-    name: Build movie-test api
+    name: Build movietest-api
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ./movie-test
-
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 17
@@ -30,16 +29,18 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: maven
+          cache: 'maven'
       - name: Build with Maven
         run : mvn verify
 
       - name: Publish Docker Image
         run : |
-          mvn clean package com.google.cloud.tools:jib-maven-plugin:3.3.0:build
+          mvn clean package jib:dockerBuild -DskipTests
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
           docker push ${{ secrets.DOCKER_USERNAME }}/movie-api
+          
 
+        #mvn clean package com.google.cloud.tools:jib-maven-plugin:3.3.0:build
         #secrets set in github repo settings (security actions) #skip tests because they are already running#
 
 
