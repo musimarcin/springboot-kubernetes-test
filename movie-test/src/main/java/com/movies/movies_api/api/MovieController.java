@@ -1,18 +1,21 @@
 package com.movies.movies_api.api;
 
+import com.movies.movies_api.data.CreateMovieRequest;
+import com.movies.movies_api.data.MovieDTO;
 import com.movies.movies_api.data.MoviesDTO;
 import com.movies.movies_api.manager.MovieService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
 @RequestMapping("/api/movies")
 @RequiredArgsConstructor
-public class MovieManager {
+public class MovieController {
     private final MovieService movieService;
 
     @GetMapping
@@ -23,5 +26,10 @@ public class MovieManager {
         else return movieService.searchMovies(query, page);
     }
 
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public MovieDTO createMovie(@RequestBody @Valid CreateMovieRequest request) {
+        return movieService.createMovie(request);
+    }
 
 }
