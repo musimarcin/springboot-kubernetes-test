@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_faux_pas_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_jackson_datatype_problem_0_27_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_problem_0_27_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_problem_spring_common_0_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_problem_spring_web_0_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_problem_spring_web_autoconfigure_0_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_problem_spring_web_starter_0_29_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_zalando_problem_violations_0_29_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/movies-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/movies-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/MoviesApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/MoviesApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/api/MovieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/api/MovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/manager/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/manager/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/api/MovieManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/api/MovieControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/MoviesApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/MoviesApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/api/MovieManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/manager/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/manager/MovieService.class" afterDir="false" />
+    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="added post method with problem spring web and tests (TODO: expected status in year test does not change)">
+      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/api/MovieManagerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,14 +120,7 @@
       <workItem from="1726996898174" duration="15705000" />
       <workItem from="1727025767880" duration="9190000" />
       <workItem from="1727036286143" duration="1310000" />
-      <workItem from="1727119075543" duration="6105000" />
-    </task>
-    <task id="LOCAL-00015" summary="trigger github actions">
-      <created>1727007029302</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1727007029302</updated>
+      <workItem from="1727119075543" duration="6464000" />
     </task>
     <task id="LOCAL-00016" summary="trigger github actions">
       <created>1727007105109</created>
@@ -486,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727034743218</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="added post method with problem spring web and tests (TODO: expected status in year test does not change)">
+      <created>1727125499124</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1727125499124</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,6 +490,7 @@
     <MESSAGE value="modified github actions" />
     <MESSAGE value="trigger github actions" />
     <MESSAGE value="trigger github actions test witout image tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="trigger github actions test witout image tag" />
+    <MESSAGE value="added post method with problem spring web and tests (TODO: expected status in year test does not change)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added post method with problem spring web and tests (TODO: expected status in year test does not change)" />
   </component>
 </project>
