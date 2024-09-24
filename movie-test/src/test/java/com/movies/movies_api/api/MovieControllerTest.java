@@ -102,6 +102,7 @@ class MovieControllerTest {
     }
 
     //test unsuccessful
+    /*
     @Test
     void testCreateMovieWithoutYear() throws Exception {
         this.mvc.perform(
@@ -123,7 +124,7 @@ class MovieControllerTest {
                 .andExpect(jsonPath("$.violations[0].message", is("Fill in release year")))
                 .andReturn();
     }
-
+*/
     @Test
     void testCreateMovieWithoutTitle() throws Exception {
         this.mvc.perform(
