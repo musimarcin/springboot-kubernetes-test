@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  movie-api:
+    build:
+      context: movie-test
+      dockerfile: Dockerfile
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_DATASOURCE_URL: jdbc:postgresql://movie-db:5432/movieappdb
+      SPRING_DATASOURCE_USERNAME: admin
+      SPRING_DATASOURCE_PASSWORD: admin
+    ports:
+      - "18080:8080"
+    restart: always
+    depends_on:
+      - movie-db
