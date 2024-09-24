@@ -102,7 +102,7 @@ class MovieControllerTest {
     }
 
     //test unsuccessful
-    /*
+
     @Test
     void testCreateMovieWithoutYear() throws Exception {
         this.mvc.perform(
@@ -118,13 +118,13 @@ class MovieControllerTest {
                 .andExpect(header().string("Content-Type", is("application/problem+json")))
                 .andExpect(jsonPath("$.type", is("https://zalando.github.io/problem/constraint-violation")))
                 .andExpect(jsonPath("$.title", is("Constraint Violation")))
-                .andExpect(jsonPath("$.status", equalTo(9999)))
+                .andExpect(jsonPath("$.status", equalTo(400)))
                 .andExpect(jsonPath("$.violations", hasSize(1)))
                 .andExpect(jsonPath("$.violations[0].field", is("releaseYear")))
                 .andExpect(jsonPath("$.violations[0].message", is("Fill in release year")))
                 .andReturn();
     }
-*/
+
     @Test
     void testCreateMovieWithoutTitle() throws Exception {
         this.mvc.perform(

@@ -15,6 +15,6 @@ public class MovieDTO {
 
     private Long id;
     private String title;
-    private int releaseYear;
+    private Integer releaseYear;
     private Instant addedWhen;
 }

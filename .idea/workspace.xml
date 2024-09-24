@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="added post method with problem spring web and tests (TODO: expected status in year test does not change)">
-      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/api/MovieManagerTest.class" beforeDir="false" />
+    <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="test github actions without failing test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/CreateMovieRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/CreateMovieRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/resources/db/migration/h2/V1__create_movie_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/resources/db/migration/h2/V1__create_movie_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/api/MovieControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/api/MovieControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/CreateMovieRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/CreateMovieRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/manager/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/manager/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/api/MovieControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/api/MovieControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,21 +130,7 @@
       <workItem from="1726996898174" duration="15705000" />
       <workItem from="1727025767880" duration="9190000" />
       <workItem from="1727036286143" duration="1310000" />
-      <workItem from="1727119075543" duration="6464000" />
-    </task>
-    <task id="LOCAL-00016" summary="trigger github actions">
-      <created>1727007105109</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1727007105109</updated>
-    </task>
-    <task id="LOCAL-00017" summary="trigger github actions">
-      <created>1727007484833</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1727007484833</updated>
+      <workItem from="1727119075543" duration="7868000" />
     </task>
     <task id="LOCAL-00018" summary="trigger github actions">
       <created>1727007522195</created>
@@ -465,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727125499124</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="missing files">
+      <created>1727148888140</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1727148888140</updated>
+    </task>
+    <task id="LOCAL-00066" summary="test github actions without failing test">
+      <created>1727149109695</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1727149109696</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,6 +501,15 @@
     <MESSAGE value="trigger github actions" />
     <MESSAGE value="trigger github actions test witout image tag" />
     <MESSAGE value="added post method with problem spring web and tests (TODO: expected status in year test does not change)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added post method with problem spring web and tests (TODO: expected status in year test does not change)" />
+    <MESSAGE value="missing files" />
+    <MESSAGE value="test github actions without failing test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test github actions without failing test" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="jdk.proxy4.$Proxy153" memberName="h" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

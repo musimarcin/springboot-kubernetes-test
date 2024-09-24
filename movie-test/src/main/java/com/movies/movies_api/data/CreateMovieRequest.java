@@ -12,5 +12,5 @@ public class CreateMovieRequest {
     @NotEmpty(message = "Fill in title")
     private String title;
     @NotNull(message = "Fill in release year")
-    private int releaseYear;
+    private Integer releaseYear;
 }

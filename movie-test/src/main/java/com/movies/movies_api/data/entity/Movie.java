@@ -24,7 +24,7 @@ public class Movie {
     @Column(nullable = false)
     private String title;
     @Column(nullable = false)
-    private int releaseYear;
+    private Integer releaseYear;
     private Instant addedWhen;
 
 }
