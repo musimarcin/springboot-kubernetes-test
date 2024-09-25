@@ -1,7 +1,0 @@
-com/movies/movies_api/manager/MovieService.class
-com/movies/movies_api/data/MoviesDTO.class
-com/movies/movies_api/data/MovieRepo.class
-com/movies/movies_api/api/MovieManager.class
-com/movies/movies_api/data/MovieDTO.class
-com/movies/movies_api/data/entity/Movie.class
-com/movies/movies_api/MoviesApiApplication.class

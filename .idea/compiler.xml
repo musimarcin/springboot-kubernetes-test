@@ -10,7 +10,7 @@
         <module name="movies-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="17">
       <module name="movies-api" target="17" />
     </bytecodeTargetLevel>
   </component>

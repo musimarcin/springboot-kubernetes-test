@@ -5,17 +5,114 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b25d63a8-1144-4fce-92aa-b1745fab3fd0" name="Changes" comment="test github actions without failing test">
+      <change afterPath="$PROJECT_DIR$/movie-api/Dockerfile.layered" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-api/src/main/resources/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-api/target/classes/application-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-api/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-api/target/movies-api-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_12_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_23_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_database_postgresql_10_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_database_commons_1_19_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_database_commons_1_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_jdbc_1_19_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_jdbc_1_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_junit_jupiter_1_19_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_junit_jupiter_1_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_postgresql_1_19_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_postgresql_1_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_19_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_19_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/CreateMovieRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/CreateMovieRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/main/resources/db/migration/h2/V1__create_movie_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/main/resources/db/migration/h2/V1__create_movie_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/api/MovieControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/api/MovieControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/CreateMovieRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/CreateMovieRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/manager/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/manager/MovieService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/api/MovieControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/api/MovieControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.sh" beforeDir="false" afterPath="$PROJECT_DIR$/compose.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24,_5_58_PM_[Changes]/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24,_5_58_PM_[Changes]/MovieManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24,_5_58_PM_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24,_5_58_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24__5_58_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24__5_58_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/MovieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/MovieManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/movies-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/movies-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/MoviesApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/MoviesApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/api/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/api/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/CreateMovieRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/data/CreateMovieRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/data/MovieDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/data/MovieMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/data/MovieRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MovieVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/data/MovieVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/MoviesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/data/MoviesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/data/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/data/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/java/com/movies/movies_api/manager/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/java/com/movies/movies_api/manager/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/resources/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/resources/db/migration/h2/V1__create_movie_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/resources/db/migration/h2/V1__create_movie_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/main/resources/db/migration/h2/V2__insert_test_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/main/resources/db/migration/h2/V2__insert_test_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/MoviesApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/test/java/com/movies/movies_api/MoviesApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/TestMoviesApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/test/java/com/movies/movies_api/TestMoviesApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/test/java/com/movies/movies_api/TestcontainersConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/src/test/java/com/movies/movies_api/api/MovieControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/src/test/java/com/movies/movies_api/api/MovieControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/MoviesApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/MoviesApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/api/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/api/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/CreateMovieRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/data/CreateMovieRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/data/MovieDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/data/MovieMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/data/MovieRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MovieVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/data/MovieVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/MoviesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/data/MoviesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/data/entity/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/data/entity/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/com/movies/movies_api/manager/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/com/movies/movies_api/manager/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/db/migration/h2/V1__create_movie_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/db/migration/h2/V1__create_movie_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/classes/db/migration/h2/V2__insert_test_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/classes/db/migration/h2/V2__insert_test_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/jib-classpath-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/jib-main-class-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/layers/1d729804d3ecaf36873b2e20a3ee1159bd05a5cbffa3b27c038e3af75ee99c98/33205cefa4e0e35be04b3f2dc031f1a7af779a24bf98b441fc9bb6570a671f49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/layers/39324eb55f98659e305275238917ff68b53829743c79c97672144d7c4e63db32/ce3c9e19daffea676d962fa1cf132cbc5905c3efa5bcd8737a036d361d7ce597" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/layers/c7919a163c05e15590a1f8faba99eae4e070fbfd278b1899b78354b6f766c17e/7710900968b75d5995eab7f8e3b16f3a09f2553a2d309f90116b7d68b987b804" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/layers/f41c5b5c4767b1ba4ee096a55bf47f3a1032cb921fd282ef8de85f9ed69be635/9e99ef7ca4aad97c61ca712d66d3468cd214c819f1572d0f598adf2ff44dec93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/selectors/6e58955573a240ec95bf07600601de92c6fe5e86ee1237f2bb6cb898d8808be7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/selectors/6f9a8e567e41dc05243c7eda687b14fdbfd182712533004747d269eb542f1a92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/selectors/7a5f21ca5df2132502c1cb49f7d9aa108b6c9b672df818fbcabd87dcb27c6524" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-cache/selectors/cbd0186270084ea7f49d9869ad0d7bdf9ce59ecc0f2d5dea17e334cd044d5f8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-image.digest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-image.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/jib-image.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/movies-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/movies-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/movies-api-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/surefire-reports/TEST-com.movies.movies_api.MoviesApiApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/surefire-reports/TEST-com.movies.movies_api.api.MovieControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/surefire-reports/TEST-com.movies.movies_api.api.MovieManagerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/surefire-reports/com.movies.movies_api.MoviesApiApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/surefire-reports/com.movies.movies_api.api.MovieControllerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/surefire-reports/com.movies.movies_api.api.MovieManagerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/MoviesApiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/test-classes/com/movies/movies_api/MoviesApiApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/TestMoviesApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/test-classes/com/movies/movies_api/TestMoviesApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/TestcontainersConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/test-classes/com/movies/movies_api/TestcontainersConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-test/target/test-classes/com/movies/movies_api/api/MovieControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/movie-api/target/test-classes/com/movies/movies_api/api/MovieControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +136,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -64,9 +162,9 @@
     &quot;last_opened_file_path&quot;: &quot;/home/musimarc/IdeaProjects/springboot-kubernetes-test&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;6e20f3fad7f2c7f1cfdb488566213ce3&quot;
   }
 }</component>
@@ -85,9 +183,13 @@
       <command value="./mvnw clean install" />
       <command value="mvn spring-boot:build-image -Dspring-boot.build-image.imageName=musimarc/movie-api " />
       <command value="mvn jib:build" />
+      <command value="mvn clean install" />
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+      <command value="mvn clean install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieControllerTest">
+  <component name="RunManager" selected="Spring Boot.MoviesApiApplication">
     <configuration name="MovieControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movies-api" />
       <extension name="coverage">
@@ -105,12 +207,18 @@
     </configuration>
     <configuration name="MoviesApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="movies-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.movies.movies_api.MoviesApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MovieControllerTest" />
+      <item itemvalue="Spring Boot.MoviesApiApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MovieControllerTest" />
@@ -131,6 +239,12 @@
       <workItem from="1727025767880" duration="9190000" />
       <workItem from="1727036286143" duration="1310000" />
       <workItem from="1727119075543" duration="7868000" />
+      <workItem from="1727207642451" duration="932000" />
+      <workItem from="1727208608840" duration="712000" />
+      <workItem from="1727209594735" duration="10105000" />
+      <workItem from="1727275708454" duration="396000" />
+      <workItem from="1727276126616" duration="114000" />
+      <workItem from="1727276256603" duration="330000" />
     </task>
     <task id="LOCAL-00018" summary="trigger github actions">
       <created>1727007522195</created>

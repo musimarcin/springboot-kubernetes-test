@@ -1,7 +1,0 @@
-/home/musimarc/IdeaProjects/springboot-kubernetes-test/movie-test/src/main/java/com/movies/movies_api/MoviesApiApplication.java
-/home/musimarc/IdeaProjects/springboot-kubernetes-test/movie-test/src/main/java/com/movies/movies_api/api/MovieManager.java
-/home/musimarc/IdeaProjects/springboot-kubernetes-test/movie-test/src/main/java/com/movies/movies_api/data/MovieDTO.java
-/home/musimarc/IdeaProjects/springboot-kubernetes-test/movie-test/src/main/java/com/movies/movies_api/data/MovieRepo.java
-/home/musimarc/IdeaProjects/springboot-kubernetes-test/movie-test/src/main/java/com/movies/movies_api/data/MoviesDTO.java
-/home/musimarc/IdeaProjects/springboot-kubernetes-test/movie-test/src/main/java/com/movies/movies_api/data/entity/Movie.java
-/home/musimarc/IdeaProjects/springboot-kubernetes-test/movie-test/src/main/java/com/movies/movies_api/manager/MovieService.java

@@ -2,8 +2,8 @@ version: '3.8'
 services:
   movie-api:
     build:
-      context: movie-test
-      dockerfile: Dockerfile
+      context: movie-api
+      dockerfile: Dockerfile.layered
     environment:
       SPRING_PROFILES_ACTIVE: docker
       SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver

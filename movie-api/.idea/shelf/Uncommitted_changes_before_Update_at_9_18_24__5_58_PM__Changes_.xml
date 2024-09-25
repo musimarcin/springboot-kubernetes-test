@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_9_18_24,_5_58_PM_[Changes]" date="1726675157554" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24,_5_58_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 9/18/24, 5:58 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/movies/movies_api/api/MovieManager.class" />
+    <option name="AFTER_PATH" value="target/classes/com/movies/movies_api/api/MovieManager.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_18_24,_5_58_PM_[Changes]/MovieManager.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/movies/movies_api/domain/Movie.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/movies/movies_api/domain/MovieService.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/movies/movies_api/domain/MovieRepo.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

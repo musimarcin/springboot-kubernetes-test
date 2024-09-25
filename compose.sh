@@ -6,8 +6,8 @@ declare dc_app=docker-compose-app.yml
 #script built to speed up docker composing by shortening commands
 
 function build_api() {
-  cd movie-test/
-  mvn spring-boot:build-image -Dspring-boot.build-image.imageName=musimarc/movie-api
+  cd movie-api/
+  mvn spring-boot:build-image
   cd ..
 }
 

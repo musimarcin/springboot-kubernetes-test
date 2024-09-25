@@ -1,0 +1,10 @@
+com/movies/movies_api/data/MovieMapper.class
+com/movies/movies_api/data/MovieDTO.class
+com/movies/movies_api/data/MovieVM.class
+com/movies/movies_api/data/entity/Movie.class
+com/movies/movies_api/MoviesApiApplication.class
+com/movies/movies_api/manager/MovieService.class
+com/movies/movies_api/data/CreateMovieRequest.class
+com/movies/movies_api/api/MovieController.class
+com/movies/movies_api/data/MoviesDTO.class
+com/movies/movies_api/data/MovieRepo.class
